@@ -13,7 +13,7 @@ const AddUser = (props) => {
     const addUserHandler = (event) => {
         event.preventDefault();
         const enteredName = nameInputRef.current.value;
-        const enteredUserAge = nameInputRef.current.value;
+        const enteredUserAge = ageInputRef.current.value;
         if (
             enteredName.trim().length === 0 ||
             enteredUserAge.trim().length === 0
